@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  flex-grow: 1;
+}
+
+.font{
+  font-size: xx-large;
+}
+
+.sport-image {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.img-1{
+  background-image: url(https://www.sportscasting.com/wp-content/uploads/2018/08/NFL-College-Football-Rules-Field-Goal-GettyImages.jpg);
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3%;
+}
+
+.img-2{
+  background-image: url(https://www.keloland.com/wp-content/uploads/sites/103/2021/11/100G8589_01.MP4.22_11_54_26.Still002.jpg?strip=1);
+  height: 25vh;
+    background-size: cover;
+  background-position: center;
+  border-radius: 3%;
+}
+
+.score-board{
+  background-image: url(https://www.clipartkey.com/mpngs/m/62-628327_billboard-png-transparent-file-billboard-png.png);
+  height: 75vh;
+}
+
+.header{
+  display: flex;
+  position: sticky;
+}
